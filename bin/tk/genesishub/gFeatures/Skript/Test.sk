@@ -18,4 +18,6 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 command /test:
-	d
+	description: This is a test
+	trigger:
+		send "Hi, this is a test." to player
